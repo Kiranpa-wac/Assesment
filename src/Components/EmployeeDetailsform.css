@@ -1,0 +1,60 @@
+.card {
+  border-radius: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-radius: 15px 15px 0 0;
+  padding: 1.25rem;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+input,
+select,
+textarea {
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  opacity: 0.6;
+}
+
+.bg-light {
+  background-color: #f7f7f7 !important;
+}
+
+.rounded-lg {
+  border-radius: 12px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.shadow-sm {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

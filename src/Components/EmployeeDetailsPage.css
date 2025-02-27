@@ -1,0 +1,133 @@
+/* Modern Styling for Employee Details Page */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+/* Main Card */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* Card Header */
+.card-header {
+  background: transparent;
+  border-bottom: none;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Card Body */
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 123, 255, 0.2);
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  box-shadow: 0 5px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Secondary Button */
+.btn-outline-secondary {
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: 1px solid #6c757d;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+/* Background Sections */
+.bg-light {
+  background-color: #eef1f7 !important;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Headers */
+h4, h5 {
+  font-weight: 600;
+}
+
+/* Modal Styling */
+.modal-content {
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+  border-bottom: none;
+  padding: 1.5rem;
+}
+
+.modal-body {
+  padding: 1.5rem;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #007bff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* Input Fields */
+input, select {
+  border-radius: 8px !important;
+  padding: 12px;
+  border: 1px solid #ddd;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+}
+/* Custom hover effect for buttons */
+.btn:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.modal-content {
+  transition: transform 0.3s ease-in-out;
+}
+
+.modal-content.show {
+  transform: scale(1.05);
+}
