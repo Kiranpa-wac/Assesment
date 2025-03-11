@@ -17,7 +17,9 @@ export const useEmployeeData = ({
 
   // Build the query string using the provided page
   const queryString = `?length=${length}&page=${page}&sort_order=${sort_order}&sort_by=${sort_by}`;
-  const url = `${import.meta.env.VITE_URL}/employee-portal/api/v1/employee${queryString}`;
+  const url = `${
+    import.meta.env.VITE_URL
+  }/employee-portal/api/v1/employee${queryString}`;
 
   // Optionally store the previous data as a fallback
   const [prevData, setPrevData] = useState(null);
@@ -34,11 +36,10 @@ export const useEmployeeData = ({
   const { data, error, isLoading, mutate } = useSWR(
     token ? url : null,
     fetcher,
-    { 
+    {
       keepPreviousData: true,
       revalidateOnFocus: false,
-     },
-    
+    }
   );
 
   useEffect(() => {

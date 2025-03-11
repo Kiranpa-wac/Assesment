@@ -38,7 +38,7 @@ const useDetailsPage = (id) => {
   const [editMode, setEditMode] = useState(false);
   const [showSuccessToast, setShowSuccessToast] = useState(false);
 
-  const { updateEmployee, isSaving, saveError, fieldErrors } = useUpdate(token);
+  // const { updateEmployee, isSaving, saveError, fieldErrors } = useUpdate(token);
 
   const details = useMemo(() => {
     if (!data) return null;
